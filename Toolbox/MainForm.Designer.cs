@@ -144,7 +144,7 @@
             // 
             this.openFolderToolStripMenuItem.Name = "openFolderToolStripMenuItem";
             this.openFolderToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
-            this.openFolderToolStripMenuItem.Text = "Open (Folder)";
+            this.openFolderToolStripMenuItem.Text = "打开（文件夹）";
             this.openFolderToolStripMenuItem.Click += new System.EventHandler(this.openFolderToolStripMenuItem_Click);
             // 
             // recentToolStripMenuItem
