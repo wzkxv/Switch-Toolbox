@@ -131,7 +131,7 @@
             // 
             this.newFromFileToolStripMenuItem.Name = "newFromFileToolStripMenuItem";
             this.newFromFileToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
-            this.newFromFileToolStripMenuItem.Text = "New From File";
+            this.newFromFileToolStripMenuItem.Text = "从文件新建";
             // 
             // openToolStripMenuItem
             // 
