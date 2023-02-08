@@ -151,7 +151,7 @@
             // 
             this.recentToolStripMenuItem.Name = "recentToolStripMenuItem";
             this.recentToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
-            this.recentToolStripMenuItem.Text = "Recent";
+            this.recentToolStripMenuItem.Text = "最近打开";
             // 
             // saveToolStripMenuItem
             // 
