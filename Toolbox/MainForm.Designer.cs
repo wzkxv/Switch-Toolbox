@@ -144,7 +144,7 @@
             // 
             this.openFolderToolStripMenuItem.Name = "openFolderToolStripMenuItem";
             this.openFolderToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
-            this.openFolderToolStripMenuItem.Text = "打开（文件夹）";
+            this.openFolderToolStripMenuItem.Text = "打开文件夹";
             this.openFolderToolStripMenuItem.Click += new System.EventHandler(this.openFolderToolStripMenuItem_Click);
             // 
             // recentToolStripMenuItem
@@ -173,14 +173,14 @@
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Text = "退出";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 21);
-            this.editToolStripMenuItem.Text = "Edit";
+            this.editToolStripMenuItem.Text = "编辑";
             // 
             // toolsToolStripMenuItem
             // 
@@ -192,26 +192,26 @@
             this.batchExportModelsToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
             this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 21);
-            this.toolsToolStripMenuItem.Text = "Tools";
+            this.toolsToolStripMenuItem.Text = "工具";
             // 
             // compressionToolStripMenuItem
             // 
             this.compressionToolStripMenuItem.Name = "compressionToolStripMenuItem";
             this.compressionToolStripMenuItem.Size = new System.Drawing.Size(316, 22);
-            this.compressionToolStripMenuItem.Text = "Compression";
+            this.compressionToolStripMenuItem.Text = "压缩";
             // 
             // batchToolStripMenuItem
             // 
             this.batchToolStripMenuItem.Name = "batchToolStripMenuItem";
             this.batchToolStripMenuItem.Size = new System.Drawing.Size(316, 22);
-            this.batchToolStripMenuItem.Text = "Batch Set File Table";
+            this.batchToolStripMenuItem.Text = "批量设置文件表";
             this.batchToolStripMenuItem.Click += new System.EventHandler(this.batchToolStripMenuItem_Click);
             // 
             // hashCalculatorToolStripMenuItem
             // 
             this.hashCalculatorToolStripMenuItem.Name = "hashCalculatorToolStripMenuItem";
             this.hashCalculatorToolStripMenuItem.Size = new System.Drawing.Size(316, 22);
-            this.hashCalculatorToolStripMenuItem.Text = "Hash Calculator";
+            this.hashCalculatorToolStripMenuItem.Text = "哈希值计算器";
             this.hashCalculatorToolStripMenuItem.Click += new System.EventHandler(this.hashCalculatorToolStripMenuItem_Click);
             // 
             // batchExportTexturesAllSupportedFormatsToolStripMenuItem
@@ -225,7 +225,7 @@
             // 
             this.experimentalToolStripMenuItem.Name = "experimentalToolStripMenuItem";
             this.experimentalToolStripMenuItem.Size = new System.Drawing.Size(88, 21);
-            this.experimentalToolStripMenuItem.Text = "Experimental";
+            this.experimentalToolStripMenuItem.Text = "实验性";
             // 
             // windowsToolStripMenuItem
             // 
@@ -237,41 +237,41 @@
             this.closeAllToolStripMenuItem});
             this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
             this.windowsToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.windowsToolStripMenuItem.Text = "Windows";
+            this.windowsToolStripMenuItem.Text = "窗口";
             // 
             // cascadeToolStripMenuItem
             // 
             this.cascadeToolStripMenuItem.Name = "cascadeToolStripMenuItem";
             this.cascadeToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.cascadeToolStripMenuItem.Text = "Cascade";
+            this.cascadeToolStripMenuItem.Text = "层叠";
             this.cascadeToolStripMenuItem.Click += new System.EventHandler(this.cascadeToolStripMenuItem_Click);
             // 
             // minimizeToolStripMenuItem
             // 
             this.minimizeToolStripMenuItem.Name = "minimizeToolStripMenuItem";
             this.minimizeToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.minimizeToolStripMenuItem.Text = "Minimize";
+            this.minimizeToolStripMenuItem.Text = "最小化";
             this.minimizeToolStripMenuItem.Click += new System.EventHandler(this.minimizeToolStripMenuItem_Click);
             // 
             // maximizeToolStripMenuItem
             // 
             this.maximizeToolStripMenuItem.Name = "maximizeToolStripMenuItem";
             this.maximizeToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.maximizeToolStripMenuItem.Text = "Maximize";
+            this.maximizeToolStripMenuItem.Text = "最大化";
             this.maximizeToolStripMenuItem.Click += new System.EventHandler(this.maximizeToolStripMenuItem_Click);
             // 
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
             this.closeToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.closeToolStripMenuItem.Text = "Close";
+            this.closeToolStripMenuItem.Text = "关闭";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
             // closeAllToolStripMenuItem
             // 
             this.closeAllToolStripMenuItem.Name = "closeAllToolStripMenuItem";
             this.closeAllToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.closeAllToolStripMenuItem.Text = "Close All";
+            this.closeAllToolStripMenuItem.Text = "全部关闭";
             this.closeAllToolStripMenuItem.Click += new System.EventHandler(this.closeAllToolStripMenuItem_Click);
             // 
             // settingsToolStripMenuItem
@@ -281,14 +281,14 @@
             this.fileAssociationsToolStripMenuItem});
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
             this.settingsToolStripMenuItem.Size = new System.Drawing.Size(61, 21);
-            this.settingsToolStripMenuItem.Text = "Settings";
+            this.settingsToolStripMenuItem.Text = "设置";
             this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
             // 
             // mainSettingsToolStripMenuItem
             // 
             this.mainSettingsToolStripMenuItem.Name = "mainSettingsToolStripMenuItem";
             this.mainSettingsToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.mainSettingsToolStripMenuItem.Text = "Main Settings";
+            this.mainSettingsToolStripMenuItem.Text = "主要设置";
             this.mainSettingsToolStripMenuItem.Click += new System.EventHandler(this.mainSettingsToolStripMenuItem_Click);
             // 
             // fileAssociationsToolStripMenuItem
@@ -296,14 +296,14 @@
             this.fileAssociationsToolStripMenuItem.Enabled = false;
             this.fileAssociationsToolStripMenuItem.Name = "fileAssociationsToolStripMenuItem";
             this.fileAssociationsToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.fileAssociationsToolStripMenuItem.Text = "File Associations";
+            this.fileAssociationsToolStripMenuItem.Text = "文件关联";
             this.fileAssociationsToolStripMenuItem.Click += new System.EventHandler(this.fileAssociationsToolStripMenuItem_Click);
             // 
             // consoleToolStripMenuItem
             // 
             this.consoleToolStripMenuItem.Name = "consoleToolStripMenuItem";
             this.consoleToolStripMenuItem.Size = new System.Drawing.Size(62, 21);
-            this.consoleToolStripMenuItem.Text = "Console";
+            this.consoleToolStripMenuItem.Text = "控制台";
             this.consoleToolStripMenuItem.Click += new System.EventHandler(this.consoleToolStripMenuItem_Click);
             // 
             // requestFeatureToolStripMenuItem
@@ -316,34 +316,34 @@
             this.githubToolStripMenuItem});
             this.requestFeatureToolStripMenuItem.Name = "requestFeatureToolStripMenuItem";
             this.requestFeatureToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
-            this.requestFeatureToolStripMenuItem.Text = "Help";
+            this.requestFeatureToolStripMenuItem.Text = "帮助";
             // 
             // aboutToolStripMenuItem1
             // 
             this.aboutToolStripMenuItem1.Name = "aboutToolStripMenuItem1";
             this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(158, 22);
-            this.aboutToolStripMenuItem1.Text = "About";
+            this.aboutToolStripMenuItem1.Text = "关于";
             this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.aboutToolStripMenuItem1_Click);
             // 
             // tutorialToolStripMenuItem
             // 
             this.tutorialToolStripMenuItem.Name = "tutorialToolStripMenuItem";
             this.tutorialToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.tutorialToolStripMenuItem.Text = "Tutorials";
+            this.tutorialToolStripMenuItem.Text = "教程";
             this.tutorialToolStripMenuItem.Click += new System.EventHandler(this.tutorialToolStripMenuItem_Click);
             // 
             // reportBugToolStripMenuItem
             // 
             this.reportBugToolStripMenuItem.Name = "reportBugToolStripMenuItem";
             this.reportBugToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.reportBugToolStripMenuItem.Text = "Report Bug";
+            this.reportBugToolStripMenuItem.Text = "报告错误";
             this.reportBugToolStripMenuItem.Click += new System.EventHandler(this.reportBugToolStripMenuItem_Click);
             // 
             // requestFeatureToolStripMenuItem1
             // 
             this.requestFeatureToolStripMenuItem1.Name = "requestFeatureToolStripMenuItem1";
             this.requestFeatureToolStripMenuItem1.Size = new System.Drawing.Size(158, 22);
-            this.requestFeatureToolStripMenuItem1.Text = "Request Feature";
+            this.requestFeatureToolStripMenuItem1.Text = "请求功能";
             this.requestFeatureToolStripMenuItem1.Click += new System.EventHandler(this.requestFeatureToolStripMenuItem1_Click);
             // 
             // githubToolStripMenuItem
