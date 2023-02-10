@@ -912,7 +912,7 @@ namespace Toolbox.Library
         {
             return new ToolStripItem[]
             {
-                new STToolStripItem("Rename", RenameAction) { Enabled = ArchiveFile.CanRenameFiles },
+                new STToolStripItem("重命名", RenameAction) { Enabled = ArchiveFile.CanRenameFiles },
                 new STToolStripItem("Export Raw Data", ExtractAction),
                 new STToolStipMenuItem("Export Raw Data to File Location", null, ExportToFileLocAction, Keys.Control | Keys.F),
                 new STToolStripItem("Replace Raw Data", ReplaceAction) { Enabled = ArchiveFile.CanReplaceFiles },

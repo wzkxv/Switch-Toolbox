@@ -63,29 +63,29 @@ namespace Bfres.Structs
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
 
-            Items.Add(new STToolStipMenuItem("New", null, NewAction, Keys.Control | Keys.N) { Enabled = ShowNewContextMenu });
-            Items.Add(new STToolStipMenuItem("Import", null, ImportAction, Keys.Control | Keys.I));
-            Items.Add(new ToolStripMenuItem("Export All", null, ExportAllAction, Keys.Control | Keys.E));
-            Items.Add(new ToolStripMenuItem("Replace (From Folder)", null, ReplaceAllAction, Keys.Control | Keys.R));
+            Items.Add(new STToolStipMenuItem("新建", null, NewAction, Keys.Control | Keys.N) { Enabled = ShowNewContextMenu });
+            Items.Add(new STToolStipMenuItem("导入", null, ImportAction, Keys.Control | Keys.I));
+            Items.Add(new ToolStripMenuItem("导出全部", null, ExportAllAction, Keys.Control | Keys.E));
+            Items.Add(new ToolStripMenuItem("从文件夹替换", null, ReplaceAllAction, Keys.Control | Keys.R));
             Items.Add(new STToolStripSeparator());
-            Items.Add(new STToolStipMenuItem("Sort", null, SortAction, Keys.Control | Keys.S));
-            Items.Add(new STToolStipMenuItem("Clear", null, ClearAction, Keys.Control | Keys.C));
+            Items.Add(new STToolStipMenuItem("排序", null, SortAction, Keys.Control | Keys.S));
+            Items.Add(new STToolStipMenuItem("清除", null, ClearAction, Keys.Control | Keys.C));
 
             if (Type == BRESGroupType.Textures)
             {
                 Items.Add(new STToolStripSeparator());
-                Items.Add(new STToolStipMenuItem("Batch Generate Mipmaps", null, BatchGenerateMipmapsAction, Keys.Control | Keys.M));
+                Items.Add(new STToolStipMenuItem("批量生成 Mipmap", null, BatchGenerateMipmapsAction, Keys.Control | Keys.M));
             }
             if (Type == BRESGroupType.Models)
             {
                 Items.Add(new STToolStripSeparator());
-                Items.Add(new STToolStipMenuItem("Show All Models", null, ShowAllModelsAction, Keys.Control | Keys.A));
-                Items.Add(new STToolStipMenuItem("Hide All Models", null, HideAllModelsAction, Keys.Control | Keys.H));
+                Items.Add(new STToolStipMenuItem("显示所有模型", null, ShowAllModelsAction, Keys.Control | Keys.A));
+                Items.Add(new STToolStipMenuItem("隐藏所有模型", null, HideAllModelsAction, Keys.Control | Keys.H));
             }
             if (Type == BRESGroupType.SkeletalAnim)
             {
                 Items.Add(new STToolStripSeparator());
-                Items.Add(new STToolStipMenuItem("Batch Edit Base Data", null, BatchEditBaseAnimDataAction, Keys.Control | Keys.A));
+                Items.Add(new STToolStipMenuItem("批量编辑基础数据", null, BatchEditBaseAnimDataAction, Keys.Control | Keys.A));
             }
 
             return Items.ToArray();

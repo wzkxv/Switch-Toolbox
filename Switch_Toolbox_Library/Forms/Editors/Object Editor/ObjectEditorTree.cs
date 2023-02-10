@@ -461,10 +461,10 @@ namespace Toolbox.Library.Forms
                 }
 
                 if (!HasCollpase && HasChildren)
-                    menuItems.Add(new ToolStripMenuItem("Collapse All", null, CollapseAllAction, Keys.Control | Keys.Q));
+                    menuItems.Add(new ToolStripMenuItem("全部折叠", null, CollapseAllAction, Keys.Control | Keys.Q));
 
                 if (!HasExpand && HasChildren)
-                    menuItems.Add(new ToolStripMenuItem("Expand All", null, ExpandAllAction, Keys.Control | Keys.P));
+                    menuItems.Add(new ToolStripMenuItem("全部展开", null, ExpandAllAction, Keys.Control | Keys.P));
             }
 
             if (archiveMenus.Count > 0)

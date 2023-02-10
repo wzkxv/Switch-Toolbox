@@ -446,17 +446,17 @@ namespace FirstPlugin
         {
             return new ToolStripItem[]
             {
-                new ToolStripMenuItem("Export", null, Save, Keys.Control | Keys.E),
-                new ToolStripMenuItem("Replace", null, Import, Keys.Control | Keys.R) { Enabled = Parent != null, },
+                new ToolStripMenuItem("导出", null, Save, Keys.Control | Keys.E),
+                new ToolStripMenuItem("替换", null, Import, Keys.Control | Keys.R) { Enabled = Parent != null, },
                 new ToolStripSeparator(),
-                new ToolStripMenuItem("Import Texture", null, ImportTextureAction, Keys.Control | Keys.I),
-                new ToolStripMenuItem("Replace Textures (From Folder)", null, ReplaceAll, Keys.Control | Keys.T),
-                new ToolStripMenuItem("Export All Textures", null, ExportAll, Keys.Control | Keys.A),
+                new ToolStripMenuItem("导入纹理", null, ImportTextureAction, Keys.Control | Keys.I),
+                new ToolStripMenuItem("从文件夹替换纹理", null, ReplaceAll, Keys.Control | Keys.T),
+                new ToolStripMenuItem("导出所有纹理", null, ExportAll, Keys.Control | Keys.A),
                 new ToolStripSeparator(),
-                new ToolStripMenuItem("Rename", null, Rename, Keys.Control | Keys.N),
-                new ToolStripMenuItem("Sort", null, SortTextures, Keys.Control | Keys.S),
+                new ToolStripMenuItem("重命名", null, Rename, Keys.Control | Keys.N),
+                new ToolStripMenuItem("排序", null, SortTextures, Keys.Control | Keys.S),
                 new ToolStripSeparator(),
-                new ToolStripMenuItem("Clear", null, Clear, Keys.Control | Keys.C),
+                new ToolStripMenuItem("清除", null, Clear, Keys.Control | Keys.C),
             };
         }
 

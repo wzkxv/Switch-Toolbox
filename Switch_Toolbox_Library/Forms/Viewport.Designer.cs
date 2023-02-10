@@ -116,7 +116,7 @@
             this.chkDisplayAllModels.Name = "chkDisplayAllModels";
             this.chkDisplayAllModels.Size = new System.Drawing.Size(74, 17);
             this.chkDisplayAllModels.TabIndex = 2;
-            this.chkDisplayAllModels.Text = "Display All";
+            this.chkDisplayAllModels.Text = "显示全部";
             this.chkDisplayAllModels.UseVisualStyleBackColor = true;
             this.chkDisplayAllModels.CheckedChanged += new System.EventHandler(this.chkDisplayAllModels_CheckedChanged);
             // 
@@ -173,13 +173,13 @@
             // 
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.viewToolStripMenuItem.Text = "View";
+            this.viewToolStripMenuItem.Text = "查看";
             // 
             // shadingToolStripMenuItem
             // 
             this.shadingToolStripMenuItem.Name = "shadingToolStripMenuItem";
             this.shadingToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
-            this.shadingToolStripMenuItem.Text = "Shading";
+            this.shadingToolStripMenuItem.Text = "着色";
             this.shadingToolStripMenuItem.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.shadingToolStripMenuItem_DropDownItemClicked);
             // 
             // cameraToolStripMenuItem1
@@ -192,7 +192,7 @@
             this.createScreenshotToolStripMenuItem});
             this.cameraToolStripMenuItem1.Name = "cameraToolStripMenuItem1";
             this.cameraToolStripMenuItem1.Size = new System.Drawing.Size(60, 20);
-            this.cameraToolStripMenuItem1.Text = "Camera";
+            this.cameraToolStripMenuItem1.Text = "相机";
             // 
             // resetCameraToolStripMenuItem
             // 
@@ -201,20 +201,20 @@
             this.toActiveModelToolStripMenuItem});
             this.resetCameraToolStripMenuItem.Name = "resetCameraToolStripMenuItem";
             this.resetCameraToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.resetCameraToolStripMenuItem.Text = "Reset";
+            this.resetCameraToolStripMenuItem.Text = "重置";
             // 
             // toOriginToolStripMenuItem
             // 
             this.toOriginToolStripMenuItem.Name = "toOriginToolStripMenuItem";
             this.toOriginToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.toOriginToolStripMenuItem.Text = "To Origin";
+            this.toOriginToolStripMenuItem.Text = "至原点";
             this.toOriginToolStripMenuItem.Click += new System.EventHandler(this.toOriginToolStripMenuItem_Click);
             // 
             // toActiveModelToolStripMenuItem
             // 
             this.toActiveModelToolStripMenuItem.Name = "toActiveModelToolStripMenuItem";
             this.toActiveModelToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.toActiveModelToolStripMenuItem.Text = "To Active Model";
+            this.toActiveModelToolStripMenuItem.Text = "至动态模型";
             this.toActiveModelToolStripMenuItem.Click += new System.EventHandler(this.toActiveModelToolStripMenuItem_Click);
             // 
             // modeToolStripMenuItem1
@@ -224,7 +224,7 @@
             this.walkToolStripMenuItem});
             this.modeToolStripMenuItem1.Name = "modeToolStripMenuItem1";
             this.modeToolStripMenuItem1.Size = new System.Drawing.Size(169, 22);
-            this.modeToolStripMenuItem1.Text = "Mode";
+            this.modeToolStripMenuItem1.Text = "模式";
             // 
             // orbitToolStripMenuItem
             // 
@@ -247,20 +247,20 @@
             this.perspectiveToolStripMenuItem});
             this.projectionToolStripMenuItem.Name = "projectionToolStripMenuItem";
             this.projectionToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.projectionToolStripMenuItem.Text = "Projection";
+            this.projectionToolStripMenuItem.Text = "投影";
             // 
             // orthographicToolStripMenuItem
             // 
             this.orthographicToolStripMenuItem.Name = "orthographicToolStripMenuItem";
             this.orthographicToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
-            this.orthographicToolStripMenuItem.Text = "Orthographic";
+            this.orthographicToolStripMenuItem.Text = "正交";
             this.orthographicToolStripMenuItem.Click += new System.EventHandler(this.orthographicToolStripMenuItem_Click);
             // 
             // perspectiveToolStripMenuItem
             // 
             this.perspectiveToolStripMenuItem.Name = "perspectiveToolStripMenuItem";
             this.perspectiveToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
-            this.perspectiveToolStripMenuItem.Text = "Perspective";
+            this.perspectiveToolStripMenuItem.Text = "透视";
             this.perspectiveToolStripMenuItem.Click += new System.EventHandler(this.perspectiveToolStripMenuItem_Click);
             // 
             // orientationToolStripMenuItem
@@ -274,62 +274,62 @@
             this.leftToolStripMenuItem});
             this.orientationToolStripMenuItem.Name = "orientationToolStripMenuItem";
             this.orientationToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.orientationToolStripMenuItem.Text = "Orientation";
+            this.orientationToolStripMenuItem.Text = "方向";
             // 
             // frontToolStripMenuItem
             // 
             this.frontToolStripMenuItem.Name = "frontToolStripMenuItem";
             this.frontToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
-            this.frontToolStripMenuItem.Text = "Front";
+            this.frontToolStripMenuItem.Text = "正面";
             this.frontToolStripMenuItem.Click += new System.EventHandler(this.frontToolStripMenuItem_Click);
             // 
             // backToolStripMenuItem
             // 
             this.backToolStripMenuItem.Name = "backToolStripMenuItem";
             this.backToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
-            this.backToolStripMenuItem.Text = "Back";
+            this.backToolStripMenuItem.Text = "背面";
             this.backToolStripMenuItem.Click += new System.EventHandler(this.backToolStripMenuItem_Click);
             // 
             // topToolStripMenuItem
             // 
             this.topToolStripMenuItem.Name = "topToolStripMenuItem";
             this.topToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
-            this.topToolStripMenuItem.Text = "Top";
+            this.topToolStripMenuItem.Text = "顶部";
             this.topToolStripMenuItem.Click += new System.EventHandler(this.topToolStripMenuItem_Click);
             // 
             // bottomToolStripMenuItem
             // 
             this.bottomToolStripMenuItem.Name = "bottomToolStripMenuItem";
             this.bottomToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
-            this.bottomToolStripMenuItem.Text = "Bottom";
+            this.bottomToolStripMenuItem.Text = "底部";
             this.bottomToolStripMenuItem.Click += new System.EventHandler(this.bottomToolStripMenuItem_Click);
             // 
             // rightToolStripMenuItem
             // 
             this.rightToolStripMenuItem.Name = "rightToolStripMenuItem";
             this.rightToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
-            this.rightToolStripMenuItem.Text = "Right";
+            this.rightToolStripMenuItem.Text = "右侧";
             this.rightToolStripMenuItem.Click += new System.EventHandler(this.rightToolStripMenuItem_Click);
             // 
             // leftToolStripMenuItem
             // 
             this.leftToolStripMenuItem.Name = "leftToolStripMenuItem";
             this.leftToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
-            this.leftToolStripMenuItem.Text = "Left";
+            this.leftToolStripMenuItem.Text = "左侧";
             this.leftToolStripMenuItem.Click += new System.EventHandler(this.leftToolStripMenuItem_Click);
             // 
             // createScreenshotToolStripMenuItem
             // 
             this.createScreenshotToolStripMenuItem.Name = "createScreenshotToolStripMenuItem";
             this.createScreenshotToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.createScreenshotToolStripMenuItem.Text = "Create Screenshot";
+            this.createScreenshotToolStripMenuItem.Text = "创建屏幕截图";
             this.createScreenshotToolStripMenuItem.Click += new System.EventHandler(this.createScreenshotToolStripMenuItem_Click);
             // 
             // resetPoseToolStripMenuItem
             // 
             this.resetPoseToolStripMenuItem.Name = "resetPoseToolStripMenuItem";
             this.resetPoseToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
-            this.resetPoseToolStripMenuItem.Text = "Reset Pose";
+            this.resetPoseToolStripMenuItem.Text = "重置姿势";
             this.resetPoseToolStripMenuItem.Click += new System.EventHandler(this.resetPoseToolStripMenuItem_Click);
             // 
             // optionsToolStripMenuItem
@@ -338,20 +338,20 @@
             this.reloadShadersToolStripMenuItem});
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
             this.optionsToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
-            this.optionsToolStripMenuItem.Text = "Options";
+            this.optionsToolStripMenuItem.Text = "选项";
             // 
             // reloadShadersToolStripMenuItem
             // 
             this.reloadShadersToolStripMenuItem.Name = "reloadShadersToolStripMenuItem";
             this.reloadShadersToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
-            this.reloadShadersToolStripMenuItem.Text = "Reload Shaders";
+            this.reloadShadersToolStripMenuItem.Text = "重新加载着色器";
             this.reloadShadersToolStripMenuItem.Click += new System.EventHandler(this.reloadShadersToolStripMenuItem_Click);
             // 
             // uVViewerToolStripMenuItem
             // 
             this.uVViewerToolStripMenuItem.Name = "uVViewerToolStripMenuItem";
             this.uVViewerToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
-            this.uVViewerToolStripMenuItem.Text = "UV Viewer";
+            this.uVViewerToolStripMenuItem.Text = "UV 查看器";
             this.uVViewerToolStripMenuItem.Click += new System.EventHandler(this.uVViewerToolStripMenuItem_Click);
             // 
             // Viewport

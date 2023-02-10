@@ -83,23 +83,23 @@ namespace Bfres.Structs
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
             Items.AddRange(base.GetContextMenuItems());
-            Items.Add(new ToolStripMenuItem("Transform", null, TransformToolAction, Keys.Control | Keys.T));
-            Items.Add(new ToolStripMenuItem("Calculate Tangents/Bitangents", null, CalcTansBitansAllShapesAction, Keys.Control | Keys.C));
-            Items.Add(new ToolStripMenuItem("Normals", null,
-             new ToolStripMenuItem("Smooth (Multiple Meshes)", null, MultiMeshSmoothNormals),
-             new ToolStripMenuItem("Smooth", null, SmoothNormalsAction),
-             new ToolStripMenuItem("Recalculate", null, RecalculateNormalsAction)
+            Items.Add(new ToolStripMenuItem("转换", null, TransformToolAction, Keys.Control | Keys.T));
+            Items.Add(new ToolStripMenuItem("计算切线/副切线", null, CalcTansBitansAllShapesAction, Keys.Control | Keys.C));
+            Items.Add(new ToolStripMenuItem("法线", null,
+             new ToolStripMenuItem("平滑（多个网格）", null, MultiMeshSmoothNormals),
+             new ToolStripMenuItem("平滑", null, SmoothNormalsAction),
+             new ToolStripMenuItem("重新计算", null, RecalculateNormalsAction)
             ));
 
             Items.Add(new ToolStripMenuItem("UVs", null,
-              new ToolStripMenuItem("Flip Vertical", null, FlipUvsVerticalAction),
-              new ToolStripMenuItem("Flip Horizontal", null, FlipUvsHorizontalAction),
-              new ToolStripMenuItem("Copy UV Channel", null, CopyUVChannels)
+              new ToolStripMenuItem("垂直翻转", null, FlipUvsVerticalAction),
+              new ToolStripMenuItem("水平翻转", null, FlipUvsHorizontalAction),
+              new ToolStripMenuItem("复制 UV 通道", null, CopyUVChannels)
             ));
 
-            Items.Add(new ToolStripMenuItem("Colors", null,
-              new ToolStripMenuItem("  Set Color", null, SetVertexColorDialogAction),
-              new ToolStripMenuItem("Set White Color", null, SetVertexColorWhiteAction)
+            Items.Add(new ToolStripMenuItem("颜色", null,
+              new ToolStripMenuItem("设置彩色", null, SetVertexColorDialogAction),
+              new ToolStripMenuItem("设置白色", null, SetVertexColorWhiteAction)
             ));
             return Items.ToArray();
         }
