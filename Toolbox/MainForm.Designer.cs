@@ -468,7 +468,7 @@
             this.saveToolStripButton.Name = "saveToolStripButton";
             this.saveToolStripButton.Size = new System.Drawing.Size(23, 21);
             this.saveToolStripButton.Text = "saveToolStripButton1";
-            this.saveToolStripButton.ToolTipText = "Save File";
+            this.saveToolStripButton.ToolTipText = "保存文件";
             this.saveToolStripButton.Click += new System.EventHandler(this.saveToolStripButton_Click);
             // 
             // updateToolstrip
@@ -480,7 +480,7 @@
             this.updateToolstrip.Name = "updateToolstrip";
             this.updateToolstrip.Size = new System.Drawing.Size(23, 21);
             this.updateToolstrip.Text = "toolStripButton1";
-            this.updateToolstrip.ToolTipText = "Update Tool";
+            this.updateToolstrip.ToolTipText = "升级工具";
             this.updateToolstrip.Click += new System.EventHandler(this.updateToolstrip_Click);
             // 
             // batchExportModelsToolStripMenuItem

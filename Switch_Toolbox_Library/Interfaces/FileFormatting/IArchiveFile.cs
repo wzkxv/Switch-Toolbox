@@ -913,13 +913,13 @@ namespace Toolbox.Library
             return new ToolStripItem[]
             {
                 new STToolStripItem("重命名", RenameAction) { Enabled = ArchiveFile.CanRenameFiles },
-                new STToolStripItem("Export Raw Data", ExtractAction),
-                new STToolStipMenuItem("Export Raw Data to File Location", null, ExportToFileLocAction, Keys.Control | Keys.F),
-                new STToolStripItem("Replace Raw Data", ReplaceAction) { Enabled = ArchiveFile.CanReplaceFiles },
+                new STToolStripItem("导出原始数据", ExtractAction),
+                new STToolStipMenuItem("导出原始数据到文件位置", null, ExportToFileLocAction, Keys.Control | Keys.F),
+                new STToolStripItem("替换原始数据", ReplaceAction) { Enabled = ArchiveFile.CanReplaceFiles },
                 new STToolStripSeparator(),
-                new STToolStipMenuItem("Open With Text Editor", null, OpenTextEditorAction, Keys.Control | Keys.T),
+                new STToolStipMenuItem("使用文本编辑器打开", null, OpenTextEditorAction, Keys.Control | Keys.T),
                 new STToolStripSeparator(),
-                new STToolStripItem("Delete", DeleteAction) { Enabled = ArchiveFile.CanDeleteFiles },
+                new STToolStripItem("删除", DeleteAction) { Enabled = ArchiveFile.CanDeleteFiles },
             };
         }
 
