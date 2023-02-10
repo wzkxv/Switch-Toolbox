@@ -83,7 +83,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(549, 398);
             this.Name = "GenericEditorForm";
-            this.Text = "GenericEditorForm";
+            this.Text = "通用编辑器表单";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GenericEditorForm_FormClosing);
             this.contentContainer.ResumeLayout(false);
             this.ResumeLayout(false);

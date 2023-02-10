@@ -358,7 +358,7 @@
             this.chkShiftJISEncoding.Name = "chkShiftJISEncoding";
             this.chkShiftJISEncoding.Size = new System.Drawing.Size(135, 17);
             this.chkShiftJISEncoding.TabIndex = 1;
-            this.chkShiftJISEncoding.Text = "Use Shift JIS Encoding";
+            this.chkShiftJISEncoding.Text = "使用 Shift JIS 编码";
             this.chkShiftJISEncoding.UseVisualStyleBackColor = true;
             this.chkShiftJISEncoding.CheckedChanged += new System.EventHandler(this.chkShiftJISEncoding_CheckedChanged);
             // 

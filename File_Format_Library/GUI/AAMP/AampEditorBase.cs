@@ -51,8 +51,8 @@ namespace FirstPlugin.Forms
             textEditor = new TextEditor();
             textEditor.Dock = DockStyle.Fill;
             textEditor.ClearContextMenus(new string[] { "Search" });
-            textEditor.AddContextMenu("Decompile", TextEditorToYaml);
-            textEditor.AddContextMenu("Compile", TextEditorFromYaml);
+            textEditor.AddContextMenu("反编译", TextEditorToYaml);
+            textEditor.AddContextMenu("编译", TextEditorFromYaml);
             stPanel2.Controls.Add(textEditor);
         }
 

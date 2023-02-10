@@ -309,16 +309,16 @@ namespace Toolbox.Library
         {
             var ToolStrips = new ToolStripItem[]
 {
-                    new STToolStripItem("Save", SaveAction) { Enabled = ((IFileFormat)ArchiveFile).CanSave},
+                    new STToolStripItem("保存", SaveAction) { Enabled = ((IFileFormat)ArchiveFile).CanSave},
                     new STToolStripSeparator(),
-                    new STToolStripItem("Repack", RepackAction){ Enabled = ArchiveFile.CanAddFiles },
-                    new STToolStripItem("Extract All", ExtractAllAction),
+                    new STToolStripItem("重新打包", RepackAction){ Enabled = ArchiveFile.CanAddFiles },
+                    new STToolStripItem("全部提取", ExtractAllAction),
                     new STToolStripSeparator(),
-                    new STToolStripItem("Preview Archive", PreviewAction),
+                    new STToolStripItem("预览存档", PreviewAction),
                     new STToolStripSeparator(),
-                    new STToolStripItem("Add Folder", AddFolderAction) { Enabled = ArchiveFile.CanAddFiles},
-                    new STToolStripItem("Add File", AddFileAction) { Enabled = ArchiveFile.CanAddFiles},
-                    new STToolStripItem("Clear Files", ClearAction) { Enabled = ArchiveFile.CanDeleteFiles},
+                    new STToolStripItem("添加文件夹", AddFolderAction) { Enabled = ArchiveFile.CanAddFiles},
+                    new STToolStripItem("添加文件", AddFileAction) { Enabled = ArchiveFile.CanAddFiles},
+                    new STToolStripItem("清除文件", ClearAction) { Enabled = ArchiveFile.CanDeleteFiles},
             };
 
             var toolStripList = ToolStrips.ToList();

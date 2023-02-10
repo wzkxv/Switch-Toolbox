@@ -806,7 +806,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(530, 347);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Model Settings";
+            this.tabPage2.Text = "模型设置";
             // 
             // tabPageAdvanced
             // 
@@ -816,7 +816,7 @@
             this.tabPageAdvanced.Padding = new System.Windows.Forms.Padding(3);
             this.tabPageAdvanced.Size = new System.Drawing.Size(530, 333);
             this.tabPageAdvanced.TabIndex = 0;
-            this.tabPageAdvanced.Text = "Advanced Settings";
+            this.tabPageAdvanced.Text = "高级设置";
             // 
             // stPanel1
             // 
@@ -850,7 +850,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(530, 333);
             this.tabPage1.TabIndex = 2;
-            this.tabPage1.Text = "Inject Mode";
+            this.tabPage1.Text = "注入模式";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // assimpMeshListView
@@ -984,7 +984,7 @@
             // 
             this.ClientSize = new System.Drawing.Size(547, 412);
             this.Name = "BfresModelImportSettings";
-            this.Text = "Import Settings";
+            this.Text = "导入设置";
             this.Load += new System.EventHandler(this.BfresModelImportSettings_Load);
             this.contentContainer.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

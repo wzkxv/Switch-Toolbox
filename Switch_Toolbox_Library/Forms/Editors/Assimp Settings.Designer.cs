@@ -280,7 +280,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.ClientSize = new System.Drawing.Size(297, 341);
             this.Name = "Assimp_Settings";
-            this.Text = "Import Settings";
+            this.Text = "导入设置";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();

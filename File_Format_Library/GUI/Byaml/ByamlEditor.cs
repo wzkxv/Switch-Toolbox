@@ -121,10 +121,10 @@ namespace FirstPlugin
 
             textEditor = new TextEditor();
             textEditor.ClearContextMenus(new string[] { "Search" });
-            textEditor.AddContextMenu("Decompile", TextEditorToYaml);
-            textEditor.AddContextMenu("Compile", TextEditorFromYaml);
+            textEditor.AddContextMenu("反编译", TextEditorToYaml);
+            textEditor.AddContextMenu("编译", TextEditorFromYaml);
 
-            var formatMenu = new STToolStripItem("Change Formatting");
+            var formatMenu = new STToolStripItem("更改格式");
             formatMenu.DropDownItems.Add(xmlOldToolstrip);
             formatMenu.DropDownItems.Add(xmlToolstrip);
             formatMenu.DropDownItems.Add(yamlToolstrip);

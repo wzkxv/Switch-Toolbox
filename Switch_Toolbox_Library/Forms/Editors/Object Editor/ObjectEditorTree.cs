@@ -443,7 +443,7 @@ namespace Toolbox.Library.Forms
                         if (item.Text != "Delete" && item.Text != "Remove")
                             menuItems.Add(item);
                     }
-                    menuItems.Add(new ToolStripMenuItem("Delete", null, DeleteAction, Keys.Delete));
+                    menuItems.Add(new ToolStripMenuItem("删除", null, DeleteAction, Keys.Delete));
                 }
                 else
                 {
