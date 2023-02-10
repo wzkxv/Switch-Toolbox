@@ -127,7 +127,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(83, 13);
             this.stLabel1.TabIndex = 1;
-            this.stLabel1.Text = "Active Model(s):";
+            this.stLabel1.Text = "  打开模型：";
             // 
             // drawContainersCB
             // 

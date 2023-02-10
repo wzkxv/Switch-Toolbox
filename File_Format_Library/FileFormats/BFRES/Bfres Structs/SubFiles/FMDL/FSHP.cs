@@ -27,12 +27,12 @@ namespace Bfres.Structs
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Import Static Object", null, Import, Keys.Control | Keys.I));
+            Items.Add(new ToolStripMenuItem("导入静态对象", null, Import, Keys.Control | Keys.I));
             Items.Add(new ToolStripSeparator());
-            Items.Add(new ToolStripMenuItem("New Empty Object", null, CreateEmpty, Keys.Control | Keys.N));
+            Items.Add(new ToolStripMenuItem("新建空对象", null, CreateEmpty, Keys.Control | Keys.N));
             Items.Add(new ToolStripSeparator());
-            Items.Add(new ToolStripMenuItem("Export All Objects", null, ExportAll, Keys.Control | Keys.A));
-            Items.Add(new ToolStripMenuItem("Clear All Objects", null, Clear, Keys.Control | Keys.C));
+            Items.Add(new ToolStripMenuItem("导出所有对象", null, ExportAll, Keys.Control | Keys.A));
+            Items.Add(new ToolStripMenuItem("清除所有对象", null, Clear, Keys.Control | Keys.C));
             return Items.ToArray();
         }
 
@@ -166,48 +166,48 @@ namespace Bfres.Structs
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
 
-            Items.Add(new ToolStripMenuItem("Export", null, Export, Keys.Control | Keys.E));
-            Items.Add(new ToolStripMenuItem("Replace (Static)", null, Replace, Keys.Control | Keys.R));
+            Items.Add(new ToolStripMenuItem("导出", null, Export, Keys.Control | Keys.E));
+            Items.Add(new ToolStripMenuItem("替换（静态）", null, Replace, Keys.Control | Keys.R));
             Items.Add(new ToolStripSeparator());
-            Items.Add(new ToolStripMenuItem("Rename", null, Rename, Keys.Control | Keys.N));
+            Items.Add(new ToolStripMenuItem("重命名", null, Rename, Keys.Control | Keys.N));
             Items.Add(new ToolStripSeparator());
 
-            ToolStripMenuItem lodMenu = new ToolStripMenuItem("Level Of Detail");
-            lodMenu.DropDownItems.Add(new ToolStripMenuItem("Clear LOD Meshes", null, ClearLODMeshes));
-            lodMenu.DropDownItems.Add(new ToolStripMenuItem("Add dummy LOD Meshes", null, GenerateDummyLODMeshesAction));
+            ToolStripMenuItem lodMenu = new ToolStripMenuItem("细节层次");
+            lodMenu.DropDownItems.Add(new ToolStripMenuItem("清除 LOD 网格", null, ClearLODMeshes));
+            lodMenu.DropDownItems.Add(new ToolStripMenuItem("添加虚拟 LOD 网格", null, GenerateDummyLODMeshesAction));
             Items.Add(lodMenu);
 
-            ToolStripMenuItem boundingsMenu = new ToolStripMenuItem("Boundings");
-            boundingsMenu.DropDownItems.Add(new ToolStripMenuItem("Regenerate Bounding Boxes/Radius", null, GenerateBoundingBoxes));
+            ToolStripMenuItem boundingsMenu = new ToolStripMenuItem("边界");
+            boundingsMenu.DropDownItems.Add(new ToolStripMenuItem("重新生成边界框/半径", null, GenerateBoundingBoxes));
             Items.Add(boundingsMenu);
 
             ToolStripMenuItem uvMenu = new ToolStripMenuItem("UVs");
-            uvMenu.DropDownItems.Add(new ToolStripMenuItem("Flip (Vertical)", null, FlipUvsVertical));
-            uvMenu.DropDownItems.Add(new ToolStripMenuItem("Flip (Horizontal)", null, FlipUvsHorizontal));
-            uvMenu.DropDownItems.Add(new ToolStripMenuItem("Copy Channel", null, CopyUVChannelAction));
+            uvMenu.DropDownItems.Add(new ToolStripMenuItem("垂直翻转", null, FlipUvsVertical));
+            uvMenu.DropDownItems.Add(new ToolStripMenuItem("水平翻转", null, FlipUvsHorizontal));
+            uvMenu.DropDownItems.Add(new ToolStripMenuItem("复制通道", null, CopyUVChannelAction));
             //  uvMenu.DropDownItems.Add(new ToolStripMenuItem("Unwrap By Position", null, UVUnwrapPosition));
 
             Items.Add(uvMenu);
 
-            ToolStripMenuItem normalsMenu = new ToolStripMenuItem("Normals");
-            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("Smooth (Multiple Meshes)", null, MultiMeshSmoothNormals));
-            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("Smooth", null, SmoothNormals));
-            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("Invert", null, InvertNormals));
-            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("Recalculate", null, RecalculateNormals));
+            ToolStripMenuItem normalsMenu = new ToolStripMenuItem("法线");
+            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("平滑（多个网格）", null, MultiMeshSmoothNormals));
+            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("平滑", null, SmoothNormals));
+            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("翻转", null, InvertNormals));
+            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("重新计算", null, RecalculateNormals));
             Items.Add(normalsMenu);
 			
-            ToolStripMenuItem colorMenu = new ToolStripMenuItem("Colors");
-            colorMenu.DropDownItems.Add(new ToolStripMenuItem("Set Color", null, SetVertexColorDialog));
-            colorMenu.DropDownItems.Add(new ToolStripMenuItem("Set As White", null, SetVertexColorWhite));
+            ToolStripMenuItem colorMenu = new ToolStripMenuItem("颜色");
+            colorMenu.DropDownItems.Add(new ToolStripMenuItem("设置彩色", null, SetVertexColorDialog));
+            colorMenu.DropDownItems.Add(new ToolStripMenuItem("设置白色", null, SetVertexColorWhite));
             Items.Add(colorMenu);
 
-            Items.Add(new ToolStripMenuItem("Recalulate Tangents/Bitangents", null, CalcTansBitans, Keys.Control | Keys.T));
-            Items.Add(new ToolStripMenuItem("Fill Tangent Space with constant", null, FillTangentsAction, Keys.Control | Keys.W));
-            Items.Add(new ToolStripMenuItem("Fill Bitangent Space with constant", null, FillBitangentsAction, Keys.Control | Keys.B));
+            Items.Add(new ToolStripMenuItem("重新计算切线/副切线", null, CalcTansBitans, Keys.Control | Keys.T));
+            Items.Add(new ToolStripMenuItem("用常量填充切线空间", null, FillTangentsAction, Keys.Control | Keys.W));
+            Items.Add(new ToolStripMenuItem("用常量填充双切线空间", null, FillBitangentsAction, Keys.Control | Keys.B));
 
-            Items.Add(new ToolStripMenuItem("Open Material Editor", null, OpenMaterialEditor, Keys.Control | Keys.M));
+            Items.Add(new ToolStripMenuItem("打开材质编辑器", null, OpenMaterialEditor, Keys.Control | Keys.M));
 
-            Items.Add(new ToolStripMenuItem("Delete", null, Remove, Keys.Control | Keys.Delete));
+            Items.Add(new ToolStripMenuItem("删除", null, Remove, Keys.Control | Keys.Delete));
             return Items.ToArray();
         }
 

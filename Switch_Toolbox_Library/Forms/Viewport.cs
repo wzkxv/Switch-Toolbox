@@ -72,7 +72,7 @@ namespace Toolbox.Library
                     shadingToolStripMenuItem.DropDownItems.Add(new ToolStripMenuItem(type.ToString()));
             }
 
-            shadingToolStripMenuItem.Text = $"Shading: [{Runtime.viewportShading.ToString()}]";
+            shadingToolStripMenuItem.Text = $"着色： [{Runtime.viewportShading.ToString()}]";
 
 
             if (LoadDrawables)
@@ -83,7 +83,7 @@ namespace Toolbox.Library
         public void ReloadDrawables()
         {
             drawContainersCB.Items.Clear();
-            drawContainersCB.Items.Add("All Active Drawables");
+            drawContainersCB.Items.Add("所有打开的可绘制对象");
 
             for (int i = 0; i < DrawableContainers.Count; i++)
             {

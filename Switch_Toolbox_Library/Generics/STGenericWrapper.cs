@@ -76,12 +76,12 @@ namespace Toolbox.Library.NodeWrappers
             {
                 return new ToolStripItem[]
                 {
-                    new ToolStripMenuItem("Export", null, ExportAction, Keys.Control | Keys.E) {Enabled = CanExport },
-                    new ToolStripMenuItem("Replace", null, ReplaceAction, Keys.Control | Keys.R) {Enabled = CanReplace },
+                    new ToolStripMenuItem("导出", null, ExportAction, Keys.Control | Keys.E) {Enabled = CanExport },
+                    new ToolStripMenuItem("替换", null, ReplaceAction, Keys.Control | Keys.R) {Enabled = CanReplace },
                     new ToolStripSeparator(),
-                    new ToolStripMenuItem("Rename", null, RenameAction, Keys.Control | Keys.N) {Enabled = CanRename },
+                    new ToolStripMenuItem("重命名", null, RenameAction, Keys.Control | Keys.N) {Enabled = CanRename },
                     new ToolStripSeparator(),
-                    new ToolStripMenuItem("Delete", null, DeleteAction, Keys.Control | Keys.Delete) {Enabled = CanDelete },
+                    new ToolStripMenuItem("删除", null, DeleteAction, Keys.Control | Keys.Delete) {Enabled = CanDelete },
                 };
             }
         }

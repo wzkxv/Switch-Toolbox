@@ -93,7 +93,7 @@ namespace FirstPlugin
              //   toolExt[0] = new STToolStripItem("Models");
             //    toolExt[0].DropDownItems.Add(new STToolStripItem("Batch Export (BFRES)", Export));
 
-                editExt[0] = new STToolStripItem("Use Advanced Editor As Default", AdvancedEditor);
+                editExt[0] = new STToolStripItem("默认使用高级编辑器", AdvancedEditor);
                 newFileExt[0] = new STToolStripItem("BFRES (Switch)", NewSwitchBfres);
                 newFileExt[1] = new STToolStripItem("BFRES (Wii U)", NewWiiUBfres);
                 editExt[0].Checked = !PluginRuntime.UseSimpleBfresEditor;

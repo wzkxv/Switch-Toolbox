@@ -687,14 +687,14 @@ namespace Toolbox.Library
         {
             return new ToolStripItem[]
             {
-                new STToolStripItem("Rename", RenameAction) { Enabled = ArchiveFile.CanRenameFiles },
-                new STToolStripItem("Extract Folder", ExtractAction),
-                new STToolStripItem("Replace Folder", ReplaceAction) { Enabled = ArchiveFile.CanReplaceFiles && ArchiveFile.CanAddFiles },
-                new STToolStripItem("Delete Folder", DeleteAction) { Enabled = ArchiveFile.CanDeleteFiles },
+                new STToolStripItem("重命名", RenameAction) { Enabled = ArchiveFile.CanRenameFiles },
+                new STToolStripItem("提取文件夹", ExtractAction),
+                new STToolStripItem("替换文件夹", ReplaceAction) { Enabled = ArchiveFile.CanReplaceFiles && ArchiveFile.CanAddFiles },
+                new STToolStripItem("删除文件夹", DeleteAction) { Enabled = ArchiveFile.CanDeleteFiles },
                 new STToolStripSeparator(),
-                new STToolStripItem("Add Folder", AddFolderAction) { Enabled = ArchiveFile.CanAddFiles },
-                new STToolStripItem("Add File", AddFileAction) { Enabled = ArchiveFile.CanAddFiles },
-                new STToolStripItem("Clear Files", ClearAction) { Enabled = ArchiveFile.CanDeleteFiles },
+                new STToolStripItem("新增文件夹", AddFolderAction) { Enabled = ArchiveFile.CanAddFiles },
+                new STToolStripItem("添加文件", AddFileAction) { Enabled = ArchiveFile.CanAddFiles },
+                new STToolStripItem("清除文件", ClearAction) { Enabled = ArchiveFile.CanDeleteFiles },
             };
         }
 
@@ -740,7 +740,7 @@ namespace Toolbox.Library
 
         public class GenericFolderProperties
         {
-            [Category("Folder Properties")]
+            [Category("文件夹属性")]
             public string Name { get; set; }
         }
 

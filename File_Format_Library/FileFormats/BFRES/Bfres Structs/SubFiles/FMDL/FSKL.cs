@@ -137,15 +137,15 @@ namespace Bfres.Structs
             {
                 return new ToolStripItem[]
                 {
-                    new ToolStripMenuItem("New Bone", null, NewBoneAction, Keys.Control | Keys.N),
-                    new ToolStripMenuItem("Import Bone", null, ImportAction, Keys.Control | Keys.I),
-                    new ToolStripMenuItem("Export All Bones", null, ExportAllAction, Keys.Control | Keys.B),
+                    new ToolStripMenuItem("新建骨骼", null, NewBoneAction, Keys.Control | Keys.N),
+                    new ToolStripMenuItem("导入骨骼", null, ImportAction, Keys.Control | Keys.I),
+                    new ToolStripMenuItem("导出所有骨骼", null, ExportAllAction, Keys.Control | Keys.B),
                     new ToolStripSeparator(),
-                    new ToolStripMenuItem("Replace Matching Bones (From Skeleton)", null, ReplaceMatchingFileAction, Keys.Control | Keys.S),
-                    new ToolStripMenuItem("Replace Matching Bones (From Folder)", null, ReplaceMatchingFolderAction, Keys.Control | Keys.F),
+                    new ToolStripMenuItem("替换匹配的骨骼（来自骨架）", null, ReplaceMatchingFileAction, Keys.Control | Keys.S),
+                    new ToolStripMenuItem("替换匹配的骨骼（来自文件夹）", null, ReplaceMatchingFolderAction, Keys.Control | Keys.F),
                     new ToolStripSeparator(),
-                    new ToolStripMenuItem("Export Skeleton", null, ExportAction, Keys.Control | Keys.E),
-                    new ToolStripMenuItem("Replace Skeleton", null, ReplaceAction, Keys.Control | Keys.R),
+                    new ToolStripMenuItem("导出骨架", null, ExportAction, Keys.Control | Keys.E),
+                    new ToolStripMenuItem("替换骨架", null, ReplaceAction, Keys.Control | Keys.R),
                 };
             }
 
@@ -620,13 +620,13 @@ namespace Bfres.Structs
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Rename", null, RenameAction, Keys.Control | Keys.R));
+            Items.Add(new ToolStripMenuItem("重命名", null, RenameAction, Keys.Control | Keys.R));
             Items.Add(new ToolStripSeparator());
-            Items.Add(new ToolStripMenuItem("New Child Bone", null, NewAction, Keys.Control | Keys.N));
-            Items.Add(new ToolStripMenuItem("Import Child Bone", null, ImportAction, Keys.Control | Keys.I));
+            Items.Add(new ToolStripMenuItem("新建子骨骼", null, NewAction, Keys.Control | Keys.N));
+            Items.Add(new ToolStripMenuItem("导入子骨骼", null, ImportAction, Keys.Control | Keys.I));
             Items.Add(new ToolStripSeparator());
-            Items.Add(new ToolStripMenuItem("Export Bone", null, ExportAction, Keys.Control | Keys.E));
-            Items.Add(new ToolStripMenuItem("Replace Bone", null, ReplaceAction, Keys.Control | Keys.R));
+            Items.Add(new ToolStripMenuItem("导出骨骼", null, ExportAction, Keys.Control | Keys.E));
+            Items.Add(new ToolStripMenuItem("替换骨骼", null, ReplaceAction, Keys.Control | Keys.R));
             return Items.ToArray();
         }
 

@@ -489,7 +489,7 @@ namespace Toolbox.Library.Forms
             {
                 string path = fileFormat.FilePath;
                 if (File.Exists(path))
-                    menuItems.Add(new ToolStripMenuItem("Open In Explorer", null, SelectFileInExplorer, Keys.Control | Keys.Q));
+                    menuItems.Add(new ToolStripMenuItem("在资源管理器中打开", null, SelectFileInExplorer, Keys.Control | Keys.Q));
             }
 
             Keys currentKey = Keys.A;

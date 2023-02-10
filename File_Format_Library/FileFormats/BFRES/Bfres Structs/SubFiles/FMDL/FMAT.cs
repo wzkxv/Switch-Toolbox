@@ -26,10 +26,10 @@ namespace Bfres.Structs
 
             ContextMenuStrip = new STContextMenuStrip();
 
-            ContextMenuStrip.Items.Add(new ToolStripMenuItem("Import Material", null, ImportAction, Keys.Control | Keys.I));
+            ContextMenuStrip.Items.Add(new ToolStripMenuItem("导入材质", null, ImportAction, Keys.Control | Keys.I));
             ContextMenuStrip.Items.Add(new ToolStripSeparator());
-            ContextMenuStrip.Items.Add(new ToolStripMenuItem("Export All Materials", null, ExportAllAction, Keys.Control | Keys.A));
-            ContextMenuStrip.Items.Add(new ToolStripMenuItem("Replace (From Folder)",null, ReplaceBatchAction, Keys.Control | Keys.R));
+            ContextMenuStrip.Items.Add(new ToolStripMenuItem("导出所有材质", null, ExportAllAction, Keys.Control | Keys.A));
+            ContextMenuStrip.Items.Add(new ToolStripMenuItem("从文件夹替换", null, ReplaceBatchAction, Keys.Control | Keys.R));
         }
 
         public void ExportAllAction(object sender, EventArgs args) { ExportAll(); }
@@ -99,14 +99,14 @@ namespace Bfres.Structs
 
             ContextMenuStrip = new STContextMenuStrip();
 
-            ContextMenuStrip.Items.Add(new ToolStripMenuItem("Export", null, ExportAction, Keys.Control | Keys.E));
-            ContextMenuStrip.Items.Add(new ToolStripMenuItem("Replace", null, ReplaceAction, Keys.Control | Keys.R));
+            ContextMenuStrip.Items.Add(new ToolStripMenuItem("导出", null, ExportAction, Keys.Control | Keys.E));
+            ContextMenuStrip.Items.Add(new ToolStripMenuItem("替换", null, ReplaceAction, Keys.Control | Keys.R));
 
             ContextMenuStrip.Items.Add(new ToolStripSeparator());
-            ContextMenuStrip.Items.Add(new ToolStripMenuItem("Copy", null, CopyAction, Keys.Control | Keys.C));
-            ContextMenuStrip.Items.Add(new ToolStripMenuItem("Rename", null, RenameAction, Keys.Control | Keys.N));
+            ContextMenuStrip.Items.Add(new ToolStripMenuItem("复制", null, CopyAction, Keys.Control | Keys.C));
+            ContextMenuStrip.Items.Add(new ToolStripMenuItem("重命名", null, RenameAction, Keys.Control | Keys.N));
             ContextMenuStrip.Items.Add(new ToolStripSeparator());
-            ContextMenuStrip.Items.Add(new ToolStripMenuItem("Delete", null, DeleteAction, Keys.Control | Keys.N));
+            ContextMenuStrip.Items.Add(new ToolStripMenuItem("删除", null, DeleteAction, Keys.Control | Keys.N));
         }
 
         protected void ExportAction(object sender, EventArgs args) { Export(); }
