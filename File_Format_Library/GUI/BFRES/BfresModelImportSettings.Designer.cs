@@ -442,7 +442,7 @@
             this.chkBoxFlipUvsY.Name = "chkBoxFlipUvsY";
             this.chkBoxFlipUvsY.Size = new System.Drawing.Size(65, 17);
             this.chkBoxFlipUvsY.TabIndex = 4;
-            this.chkBoxFlipUvsY.Text = "Flip UVs";
+            this.chkBoxFlipUvsY.Text = "翻转 UVs";
             this.chkBoxFlipUvsY.UseVisualStyleBackColor = true;
             this.chkBoxFlipUvsY.CheckedChanged += new System.EventHandler(this.chkBoxSettings_CheckedChanged);
             // 
@@ -453,7 +453,7 @@
             this.chkBoxImportBones.Name = "chkBoxImportBones";
             this.chkBoxImportBones.Size = new System.Drawing.Size(88, 17);
             this.chkBoxImportBones.TabIndex = 10;
-            this.chkBoxImportBones.Text = "Import Bones";
+            this.chkBoxImportBones.Text = "导入骨骼";
             this.chkBoxImportBones.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkBoxImportBones.UseVisualStyleBackColor = true;
             this.chkBoxImportBones.CheckedChanged += new System.EventHandler(this.chkBoxSettings_CheckedChanged);
@@ -499,7 +499,7 @@
             this.chkCreateDummyLODs.Name = "chkCreateDummyLODs";
             this.chkCreateDummyLODs.Size = new System.Drawing.Size(210, 17);
             this.chkCreateDummyLODs.TabIndex = 37;
-            this.chkCreateDummyLODs.Text = "Create Dummy LODs (always first level)";
+            this.chkCreateDummyLODs.Text = "创建虚拟 LOD（始终为第一级）";
             this.chkCreateDummyLODs.UseVisualStyleBackColor = true;
             // 
             // stLabel3
@@ -509,7 +509,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(71, 13);
             this.stLabel3.TabIndex = 36;
-            this.stLabel3.Text = "Game Preset:";
+            this.stLabel3.Text = "游戏预设：";
             // 
             // gamePresetCB
             // 
@@ -531,7 +531,7 @@
             this.chkResetColorParams.Name = "chkResetColorParams";
             this.chkResetColorParams.Size = new System.Drawing.Size(119, 17);
             this.chkResetColorParams.TabIndex = 34;
-            this.chkResetColorParams.Text = "Reset Color Params";
+            this.chkResetColorParams.Text = "重置颜色参数";
             this.chkResetColorParams.UseVisualStyleBackColor = true;
             this.chkResetColorParams.CheckedChanged += new System.EventHandler(this.chkBoxSettings_CheckedChanged);
             // 
@@ -542,7 +542,7 @@
             this.chkPlaceHolderTextures.Name = "chkPlaceHolderTextures";
             this.chkPlaceHolderTextures.Size = new System.Drawing.Size(160, 17);
             this.chkPlaceHolderTextures.TabIndex = 32;
-            this.chkPlaceHolderTextures.Text = "Create Placeholder Textures";
+            this.chkPlaceHolderTextures.Text = "创建占位符纹理";
             this.chkPlaceHolderTextures.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkPlaceHolderTextures.UseVisualStyleBackColor = true;
             this.chkPlaceHolderTextures.CheckedChanged += new System.EventHandler(this.chkPlaceHolderTextures_CheckedChanged);
@@ -556,7 +556,7 @@
             this.chkBoxImportMat.Name = "chkBoxImportMat";
             this.chkBoxImportMat.Size = new System.Drawing.Size(88, 17);
             this.chkBoxImportMat.TabIndex = 31;
-            this.chkBoxImportMat.Text = "Use Material:";
+            this.chkBoxImportMat.Text = "使用材质：";
             this.chkBoxImportMat.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkBoxImportMat.UseVisualStyleBackColor = true;
             this.chkBoxImportMat.CheckedChanged += new System.EventHandler(this.chkBoxImportMat_CheckedChanged);
@@ -568,7 +568,7 @@
             this.chkResetUVParams.Name = "chkResetUVParams";
             this.chkResetUVParams.Size = new System.Drawing.Size(110, 17);
             this.chkResetUVParams.TabIndex = 30;
-            this.chkResetUVParams.Text = "Reset UV Params";
+            this.chkResetUVParams.Text = "重置UV参数";
             this.chkResetUVParams.UseVisualStyleBackColor = true;
             this.chkResetUVParams.CheckedChanged += new System.EventHandler(this.chkBoxSettings_CheckedChanged);
             // 
@@ -579,7 +579,7 @@
             this.chkBoxRotNegative90Y.Name = "chkBoxRotNegative90Y";
             this.chkBoxRotNegative90Y.Size = new System.Drawing.Size(117, 17);
             this.chkBoxRotNegative90Y.TabIndex = 29;
-            this.chkBoxRotNegative90Y.Text = "Rotate -90 degrees";
+            this.chkBoxRotNegative90Y.Text = "旋转 -90 度";
             this.chkBoxRotNegative90Y.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkBoxRotNegative90Y.UseVisualStyleBackColor = true;
             // 
@@ -601,7 +601,7 @@
             this.chkBoxEnableWeightIndices.Name = "chkBoxEnableWeightIndices";
             this.chkBoxEnableWeightIndices.Size = new System.Drawing.Size(140, 17);
             this.chkBoxEnableWeightIndices.TabIndex = 25;
-            this.chkBoxEnableWeightIndices.Text = "Enable Indices/Weights";
+            this.chkBoxEnableWeightIndices.Text = "启用索引/权重";
             this.chkBoxEnableWeightIndices.UseVisualStyleBackColor = true;
             this.chkBoxEnableWeightIndices.CheckedChanged += new System.EventHandler(this.chkBoxEnableAttribute_CheckedChanged);
             // 
@@ -612,7 +612,7 @@
             this.chkBoxEnableBitans.Name = "chkBoxEnableBitans";
             this.chkBoxEnableBitans.Size = new System.Drawing.Size(112, 17);
             this.chkBoxEnableBitans.TabIndex = 24;
-            this.chkBoxEnableBitans.Text = "Enable Bitangents";
+            this.chkBoxEnableBitans.Text = "启用双切线";
             this.chkBoxEnableBitans.UseVisualStyleBackColor = true;
             this.chkBoxEnableBitans.CheckedChanged += new System.EventHandler(this.chkBoxEnableAttribute_CheckedChanged);
             // 
@@ -623,7 +623,7 @@
             this.chkBoxEnableTans.Name = "chkBoxEnableTans";
             this.chkBoxEnableTans.Size = new System.Drawing.Size(107, 17);
             this.chkBoxEnableTans.TabIndex = 23;
-            this.chkBoxEnableTans.Text = "Enable Tangents";
+            this.chkBoxEnableTans.Text = "启用切线";
             this.chkBoxEnableTans.UseVisualStyleBackColor = true;
             this.chkBoxEnableTans.CheckedChanged += new System.EventHandler(this.chkBoxEnableAttribute_CheckedChanged);
             // 
@@ -634,7 +634,7 @@
             this.chkBoxEnableVertColors.Name = "chkBoxEnableVertColors";
             this.chkBoxEnableVertColors.Size = new System.Drawing.Size(124, 17);
             this.chkBoxEnableVertColors.TabIndex = 22;
-            this.chkBoxEnableVertColors.Text = "Enable Vertex Colors";
+            this.chkBoxEnableVertColors.Text = "启用顶点颜色";
             this.chkBoxEnableVertColors.UseVisualStyleBackColor = true;
             this.chkBoxEnableVertColors.CheckedChanged += new System.EventHandler(this.chkBoxEnableAttribute_CheckedChanged);
             // 
@@ -645,7 +645,7 @@
             this.chkBoxEnableUVs.Name = "chkBoxEnableUVs";
             this.chkBoxEnableUVs.Size = new System.Drawing.Size(82, 17);
             this.chkBoxEnableUVs.TabIndex = 21;
-            this.chkBoxEnableUVs.Text = "Enable UVs";
+            this.chkBoxEnableUVs.Text = "启用 UVs";
             this.chkBoxEnableUVs.UseVisualStyleBackColor = true;
             this.chkBoxEnableUVs.CheckedChanged += new System.EventHandler(this.chkBoxEnableAttribute_CheckedChanged);
             // 
@@ -656,7 +656,7 @@
             this.chkBoxEnableNormals.Name = "chkBoxEnableNormals";
             this.chkBoxEnableNormals.Size = new System.Drawing.Size(100, 17);
             this.chkBoxEnableNormals.TabIndex = 20;
-            this.chkBoxEnableNormals.Text = "Enable Normals";
+            this.chkBoxEnableNormals.Text = "启用法线";
             this.chkBoxEnableNormals.UseVisualStyleBackColor = true;
             this.chkBoxEnableNormals.CheckedChanged += new System.EventHandler(this.chkBoxEnableAttribute_CheckedChanged);
             // 
@@ -668,7 +668,7 @@
             this.chkBoxEnablePositions.Name = "chkBoxEnablePositions";
             this.chkBoxEnablePositions.Size = new System.Drawing.Size(104, 17);
             this.chkBoxEnablePositions.TabIndex = 19;
-            this.chkBoxEnablePositions.Text = "Enable Positions";
+            this.chkBoxEnablePositions.Text = "启用定位";
             this.chkBoxEnablePositions.UseVisualStyleBackColor = true;
             this.chkBoxEnablePositions.CheckedChanged += new System.EventHandler(this.chkBoxEnableAttribute_CheckedChanged);
             // 
@@ -679,7 +679,7 @@
             this.chkBoxRecalcNormals.Name = "chkBoxRecalcNormals";
             this.chkBoxRecalcNormals.Size = new System.Drawing.Size(124, 17);
             this.chkBoxRecalcNormals.TabIndex = 18;
-            this.chkBoxRecalcNormals.Text = "Recalculate Normals";
+            this.chkBoxRecalcNormals.Text = "重新计算法线";
             this.chkBoxRecalcNormals.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkBoxRecalcNormals.UseVisualStyleBackColor = true;
             this.chkBoxRecalcNormals.CheckedChanged += new System.EventHandler(this.chkBoxSettings_CheckedChanged);
@@ -693,7 +693,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 17;
-            this.button1.Text = "Save";
+            this.button1.Text = "保存";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -706,7 +706,7 @@
             this.chkBoxTransformMatrix.Name = "chkBoxTransformMatrix";
             this.chkBoxTransformMatrix.Size = new System.Drawing.Size(104, 17);
             this.chkBoxTransformMatrix.TabIndex = 14;
-            this.chkBoxTransformMatrix.Text = "Transform Matrix";
+            this.chkBoxTransformMatrix.Text = "变换矩阵";
             this.chkBoxTransformMatrix.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkBoxTransformMatrix.UseVisualStyleBackColor = true;
             this.chkBoxTransformMatrix.CheckedChanged += new System.EventHandler(this.chkBoxSettings_CheckedChanged);
@@ -718,7 +718,7 @@
             this.chkBoxRot90Y.Name = "chkBoxRot90Y";
             this.chkBoxRot90Y.Size = new System.Drawing.Size(114, 17);
             this.chkBoxRot90Y.TabIndex = 13;
-            this.chkBoxRot90Y.Text = "Rotate 90 degrees";
+            this.chkBoxRot90Y.Text = "旋转 90 度";
             this.chkBoxRot90Y.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkBoxRot90Y.UseVisualStyleBackColor = true;
             this.chkBoxRot90Y.CheckedChanged += new System.EventHandler(this.chkBoxSettings_CheckedChanged);
@@ -739,7 +739,7 @@
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(130, 17);
             this.checkBox9.TabIndex = 11;
-            this.checkBox9.Text = "Overwrite Vertex color";
+            this.checkBox9.Text = "覆盖顶点颜色";
             this.checkBox9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox9.UseVisualStyleBackColor = true;
             // 
@@ -978,7 +978,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(63, 13);
             this.stLabel4.TabIndex = 39;
-            this.stLabel4.Text = "LOD Count:";
+            this.stLabel4.Text = "LOD 计数：";
             // 
             // BfresModelImportSettings
             // 
